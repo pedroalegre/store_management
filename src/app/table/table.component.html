@@ -1,0 +1,25 @@
+<mat-table [dataSource]="dataSource" class="table mat-elevation-z8">
+    <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef>Product</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.name}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="sku">
+        <mat-header-cell *matHeaderCellDef>SKU</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.sku}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="barcode">
+        <mat-header-cell *matHeaderCellDef>Barcode</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.barcode}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="enabled">
+        <mat-header-cell *matHeaderCellDef>Status</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.enabled}}</mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+</mat-table>

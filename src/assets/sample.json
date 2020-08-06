@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "name": "Te Matcha",
+            "sku": "SKU 1234",
+            "barcode": "000",
+            "image": "",
+            "price": "1.4",
+            "enabled": true
+        },
+        {
+            "id": 1,
+            "name": "Te Matcha Premium",
+            "sku": "SKU 22523",
+            "barcode": "23454",
+            "image": "",
+            "price": "165",
+            "enabled": true
+        },
+        {
+            "id": 2,
+            "name": "Cuchara medidora",
+            "sku": "SKU 92358",
+            "barcode": "2348",
+            "image": "",
+            "price": "5",
+            "enabled": true
+        },
+        {
+            "id": 3,
+            "name": "Hair & Nails",
+            "sku": "SKU 1234",
+            "barcode": "000",
+            "image": "",
+            "price": "1.4",
+            "enabled": true
+        },
+        {
+            "id": 4,
+            "name": "Te Menta",
+            "sku": "SKU 1234",
+            "barcode": "000",
+            "image": "",
+            "price": "1.4",
+            "enabled": true
+        }
+    ]
+}
